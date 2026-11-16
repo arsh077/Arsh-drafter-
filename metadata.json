@@ -1,0 +1,8 @@
+{
+  "name": "e-Stamp Studio",
+  "description": "Indian Non-Judicial e-Stamp Certificate form builder, live A4 preview, and PDF generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
