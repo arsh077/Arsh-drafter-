@@ -105,11 +105,12 @@ export const EStampCertificate: React.FC<EStampCertificateProps> = ({ data, shee
       </div>
 
       {/* LEFT VERTICAL REPEATED SIDE TEXT */}
-      <div className="w-[20px] shrink-0 mt-[118px] mb-[132px] flex items-center justify-center overflow-hidden">
+      <div className="relative z-20 w-[20px] shrink-0 mt-[118px] mb-[132px] flex items-center justify-center overflow-hidden">
         <div
-          className="whitespace-nowrap uppercase font-black tracking-[0.03em]"
+          className="relative z-20 whitespace-nowrap uppercase font-black tracking-[0.03em]"
           style={{
-            transform: 'rotate(-90deg)',
+            writingMode: 'vertical-rl',
+            transform: 'rotate(180deg)',
             fontSize: '10.5px',
             fontWeight: 900,
             color: '#000000',
@@ -394,11 +395,12 @@ export const EStampCertificate: React.FC<EStampCertificateProps> = ({ data, shee
       </div>
 
       {/* RIGHT VERTICAL REPEATED SIDE TEXT */}
-      <div className="w-[20px] shrink-0 mt-[118px] mb-[132px] flex items-center justify-center overflow-hidden">
+      <div className="relative z-20 w-[20px] shrink-0 mt-[118px] mb-[132px] flex items-center justify-center overflow-hidden">
         <div
-          className="whitespace-nowrap uppercase font-black tracking-[0.03em]"
+          className="relative z-20 whitespace-nowrap uppercase font-black tracking-[0.03em]"
           style={{
-            transform: 'rotate(-90deg)',
+            writingMode: 'vertical-rl',
+            transform: 'rotate(180deg)',
             fontSize: '10.5px',
             fontWeight: 900,
             color: '#000000',
